@@ -7,7 +7,7 @@ alwaysApply: true
 
 Read this before making any change.
 
-**TapTalk** is an iOS AAC (Augmentative & Alternative Communication) app — one place to communicate, plan the day, and use simple daily tools. Built for clarity and accessibility.
+**TapTalk** is an iOS16+ (not ios26) AAC (Augmentative & Alternative Communication) app — one place to communicate, plan the day, and use simple daily tools. Built for clarity and accessibility.
 
 **Stack:** React Native · Expo SDK 54 · Expo Router · TypeScript · iPhone first (Expo Go) · EAS
 
@@ -17,6 +17,12 @@ Read this before making any change.
 - **First-Then** — 2-slot visual schedule
 - **List** — lists with reminders
 - **Goal Tracker** · **Therapeutic Activities** · **Resource Library**
+
+**Core Important Rules:**
+
+- Do NOT **Halucinate**, Meaning do NOT. Make any changes if i didnt mention it or tell you to do it.
+- You are able to **Suggest** me other options, If i tell you to do A. You can tell me this is B. and i think it's better (##why...##). Then give me a choice A. Or B. 
+- Always ask questions, The more you know the more real the app becomes as you know it more by asking **Questions**.
 
 **Where we are:** Phase 2 — building the iPhone app in code. iPad and App Store come later.
 
