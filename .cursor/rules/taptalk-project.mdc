@@ -1,53 +1,23 @@
 ---
-description: TapTalk project context, workflow, and anti-hallucination rules
+description: What TapTalk is and why we are building it — read before any change
 alwaysApply: true
 ---
 
-# TapTalk — Project Rules
+# TapTalk — What & Why
 
-**Repo:** https://github.com/CavenLink-Dev/TapTalk.v2  
-**Stack:** React Native + Expo SDK 54 + Expo Router · TypeScript · iOS 16+ · iPhone first · EAS builds
+Read this before making any change.
 
-## Machine Setup
+**TapTalk** is an iOS AAC (Augmentative & Alternative Communication) app — one place to communicate, plan the day, and use simple daily tools. Built for clarity and accessibility.
 
-Developer switches 50/50 between Windows and Mac. **GitHub is the only source of truth.**
+**Stack:** React Native · Expo SDK 54 · Expo Router · TypeScript · iPhone first (Expo Go) · EAS
 
-- Never reference a local file as if it definitely exists on this machine
-- Never assume anything from a previous session is present locally
-- Never say "the file we created earlier" — it may not be on this machine yet
-- If a file is needed and you are not sure it exists, **ask the user to check**
-- Session start: user runs `git pull origin main`
-- Session end: everything committed and pushed to GitHub
+**Core features we are building:**
+- **Talk** — AAC board (Mulberry symbols + TalkBoard keyboard) with speech
+- **My Day** — daily routine / planning
+- **First-Then** — 2-slot visual schedule
+- **List** — lists with reminders
+- **Goal Tracker** · **Therapeutic Activities** · **Resource Library**
 
-## GitHub Workflow
+**Where we are:** Phase 2 — building the iPhone app in code. iPad and App Store come later.
 
-Every change gets **committed and pushed immediately after it works** — not at end of day. GitHub must always be up to date.
-
-## Current Phase
-
-| Phase | Focus |
-|-------|-------|
-| 1 | Figma design (outside Cursor) |
-| **2** | **Build iPhone version — test in Expo Go** ← current |
-| 3 | Perfect iPhone version |
-| 4 | iPad version |
-| 5 | App Store via EAS |
-
-iPhone only right now. Do not assume the next task — wait for instruction.
-
-## No Hallucination
-
-1. If you do not know if a file exists, ask. Do not assume.
-2. If unsure about an API or package, say so. Do not guess.
-3. Package not in `package.json`? Tell the user before using it.
-4. Do not invent file paths, component names, or constants.
-5. Do not add anything the user did not ask for.
-6. One task at a time — build exactly what was asked.
-7. Missing or unclear? Stop and ask. Never fill gaps yourself.
-
-## Technical Requirements
-
-- Expo SDK 54 — must run in **Expo Go** on iPhone
-- iOS 16 minimum — no APIs unavailable on iOS 16
-- TypeScript only · Expo Router · EAS for builds
-- Use design/rules style for iOS 16+
+**Repo:** https://github.com/CavenLink-Dev/TapTalk.v2
